@@ -82,7 +82,7 @@ li a{
 
 .image-container {
     position: relative;
-    background-image: url(/images/hero-img.jpg);
+    background-image: url(./images/hero-img.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -180,14 +180,14 @@ li a{
     background-position: center;
 }
 .movie-project {
-    background-image: url(/images/movie.jpg);
+    background-image: url(./images/movie.jpg);
 }
 .gym-project {
-    background-image: url(/images/ai.jpg);
+    background-image: url(./images/ai.jpg);
 }
 
 .dsa-project {
-    background-image: url(/images/dsa.jpg);
+    background-image: url(./images/dsa.jpg);
 }
 .text-container {
     position: absolute;
@@ -265,7 +265,7 @@ li a{
 .about-image {
     height: 450px;
     width: 450px;
-    background-image: url(/images/me.jpg);
+    background-image: url(./images/me.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -327,7 +327,7 @@ li a{
         margin-top: 20px;
         height: 300px;
         width: 225px;
-        background-image: url(/images/me.jpg);
+        background-image: url(./images/me.jpg);
         background-size: cover;
         background-position: center;
     }
