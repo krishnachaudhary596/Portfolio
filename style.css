@@ -48,7 +48,7 @@ li a{
 }
 
 #name {
-    color: var(--blue-text);
+    color: #fff;
     font-size: 30px;
     font-weight: bold;
 }
@@ -90,4 +90,118 @@ li a{
     left: 0;
     /* background: rgba(0, 0, 0, 0.2); */
     z-index: 1;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+/* .firstword {
+    color: var(--blue-text)
+} */
+
+.resume-cta {
+    border: 3px solid var(--blue-text);
+    width: 175px;
+    padding: 30px;
+    margin-top: 15px;
+}
+.resume-text {
+    color: #fff;
+}
+
+.resume-cta:hover {
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+/*Project Section */
+
+.project-container {
+    width: 100%;
+    height: 100%;
+}
+
+.project-header {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.movie-project {
+    width: 360px;
+    height: 360px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/movie.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gym-project {
+    width: 360px;
+    height: 360px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/ai.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.dsa-project {
+    width: 360px;
+    height: 360px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/dsa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-container {
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+.text-container:hover {
+    height: 350px;
+}
+
+.name {
+    margin-top: 10px;
+    color: var(--dark-blue);
+    font-size: 1.87rem;
 }
