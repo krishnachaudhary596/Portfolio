@@ -205,3 +205,52 @@ li a{
     color: var(--dark-blue);
     font-size: 1.87rem;
 }
+
+.content {
+    /* padding: 25px; */
+    color: var(--mid-blue);
+}
+
+.button {
+    border: 25px 0;
+    width: 160px;
+    box-shadow: -15px 7px 30ox rgba(0, 0, 0, 0.2);
+    /* padding: 15px; */
+    margin-bottom: 50px;
+}
+
+/* About Section */
+
+.about-container {
+    margin: 10%;
+    width: 80%;
+    height: auto;
+    background-color: #f8f8f8;
+    box-shadow: -15px 7px 30ox rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.about-image {
+    height: 450px;
+    width: 450px;
+    background-image: url(/images/me.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text {
+    height: auto;
+    width: 40%;
+    font-size: 1.5rem;
+    margin-left: 100px;
+}
+
+.social {
+    
+}
